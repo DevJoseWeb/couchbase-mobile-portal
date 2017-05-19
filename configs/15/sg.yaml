@@ -132,7 +132,7 @@ properties:
             type: string
             enum:
               - continuous:
-                  description: todo.
+                  description: This property must be set to use Sync Gateway convergence. In an environment with multiple Sync Gateway instances, only 1 Sync Gateway instance should have this property enabled in its configuration file.
           oidc:
             type: object
             description: OIDC providers.
@@ -229,7 +229,7 @@ properties:
             properties:
               enable_extended_attributes:
                 type: boolean
-                description: todo
+                description: Enable Sync Gateway convergence.
           users:
             type: object
             description: Initial user accounts.
