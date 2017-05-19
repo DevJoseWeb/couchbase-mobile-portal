@@ -128,6 +128,11 @@ properties:
             type: string
             description: Feed type DCP or TAP.
             default: TAP
+          import_docs:
+            type: string
+            enum:
+              - continuous:
+                  description: todo.
           oidc:
             type: object
             description: OIDC providers.
@@ -218,6 +223,13 @@ properties:
           username:
             type: string
             description: Bucket username for authenticating to Couchbase Server. There is no default.
+          unsupported:
+            type: object
+            description: Options currently available in a developer preview or experimental only.
+            properties:
+              enable_extended_attributes:
+                type: boolean
+                description: todo
           users:
             type: object
             description: Initial user accounts.

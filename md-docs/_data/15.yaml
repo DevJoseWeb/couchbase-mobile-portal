@@ -1,0 +1,24 @@
+- title: What's new in 1.5
+  open: true
+  path: whatsnew.html
+- title: Getting Started
+  open: true
+  items:
+    - title: Sync Gateway
+      path: installation/sync-gateway/index.html
+- title: Guides
+  open: true
+  items:
+    - title: Sync Gateway
+      open: true
+      items:
+        - title: Configuration file
+          path: guides/sync-gateway/config-properties/index.html
+- title: API References
+  open: true
+  items:
+    - title: Sync Gateway
+      open: true
+      items:
+        - title: Release notes
+          path: references/sync-gateway/release-notes.html
