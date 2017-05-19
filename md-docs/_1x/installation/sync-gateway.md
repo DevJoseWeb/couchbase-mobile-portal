@@ -4,8 +4,6 @@ title: Sync Gateway
 permalink: installation/sync-gateway/index.html
 ---
 
-## Installing Sync Gateway
-
 You can download Sync Gateway from the [Couchbase downloads page](http://www.couchbase.com/nosql-databases/downloads#couchbase-mobile) or download it directly to a Linux system by using the `wget`.
 
 ```bash
@@ -41,6 +39,18 @@ Sync Gateway uses specific ports for communication with the outside world, mostl
 |4985|Admin port. Internal HTTP port for unrestricted access to the database and to run administrative tasks.|
 
 Once you have downloaded Sync Gateway on the distribution of your choice you are ready to install and start it as a service.
+
+### Compatibility with Couchbase Server
+
+|CB/Sync Gateway|SG 1.2| SG 1.3|SG 1.4|SG 1.5|
+|:--------------|:-----|:------|:-----|:-----|
+|CB 2.2.x|✔|✔|✔|✔|
+|CB 2.5.x|✔|✔|✔|✔|
+|CB 3.1|✔|✔|✔|✔|
+|CB 4.0|✔|✔|✔|✔|
+|CB 4.1|✔|✔|✔|✔|
+
+## Installation
 
 ### Ubuntu
 
